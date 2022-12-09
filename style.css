@@ -1,0 +1,340 @@
+/* #58BAC7-60%-fill
+#5882C7-30%-header footer
+ #58C79D-10% buttons */
+
+
+ body{
+    background: #58BAC7
+ }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    ;
+}
+
+.wrapper{
+        
+}
+
+/* top header  */
+
+header{
+    background:rgb(155, 151, 151) ;
+    color: white;
+    height: 2rem;
+      
+}
+
+.global-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.3rem;
+}
+
+.left{
+    padding-left: 4rem;
+}
+
+.left ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.left ul li{
+    padding-left: 3em;
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.gap{
+    padding-left: 4px;
+}
+
+.gap1{
+    padding-left: 7px;
+}
+
+.socials{
+    padding-right: 8rem;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 1em;  
+}
+
+.contact{
+    margin-right: 3rem;
+    font-weight: 500;
+}
+
+/* Navbar */
+
+.container{
+    width: 80%;
+    margin: auto;
+     
+    
+}
+
+nav{
+    background: #5882C7;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    position: sticky;
+    top:0;
+
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.top-menu ul{
+    display: flex;
+    list-style: none;
+    line-height: 3rem;
+
+}
+
+.top-menu ul li{
+    margin-left: 1.5rem;
+    transition: color 1.5s;
+    transition: transform 1s;
+
+}
+
+.top-menu ul li a{
+color: white;
+text-decoration: none;
+}
+
+.top-menu ul li a:hover{
+    color: #041810;
+    cursor: pointer;
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
+.logo{
+    background: linear-gradient(rgb(116, 231, 116),rgb(121, 153, 214));
+    font-weight: bolder;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.logo:hover{
+    color: #041810;
+    cursor: pointer;
+    font-weight: bold;
+    background: linear-gradient(rgb(85, 199, 85),rgb(223, 150, 102));
+
+}
+
+/* hero section */
+.video{
+    height: 50vh;
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+}
+
+
+.video > div{
+
+    position: absolute;
+    top: 13rem;
+    left: 25rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+   
+}
+
+.video > div h1{
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+/* content section */
+.content{
+    margin-top: 50vh;
+    height: 35vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.content h1{
+    font-size: 15vh;
+    font-weight: lighter;
+    
+}
+
+.title{
+    background: rgba(0, 0, 0, 0.507);
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    opacity: 75%;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+
+}
+
+/* women image section  */
+.img1{
+    height: 70vh;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    background: url(media/womensh.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* women product section */
+.product h1{
+    font-size: 5vh;
+    padding-bottom: 4px;
+}
+
+hr{
+    width: 80%;
+
+}
+.card-section{
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.card-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px
+
+}
+
+.card{
+    width: 350px;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 5px 10px 5px;
+    margin: 10px;
+    box-shadow: -5px 5px 10px 5px rgb(54, 90, 90);
+}
+
+.card img{
+    border-radius: 15px;
+}
+
+.btn-card{
+    background-color: #58C79D;
+    font-size: 15px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-card:hover{
+    cursor: pointer;
+}
+
+.container1 h4{
+    display: flex;
+    justify-content: center;
+}
+
+/* men image section  */
+.img2{
+    height: 70vh;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2{
+    background: url(media/mensh.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* shop section */
+.shop-section{
+    width: 80%;
+  
+
+
+}
+.shop{
+    height: 50vh;
+    display: flex;
+    
+    
+}
+
+.men{
+    margin: 50px;
+    position: relative;
+    
+}
+
+.sm{
+    color: white;
+    position: absolute;
+    top: 3rem;
+    left: 22rem;
+}
+
+.sm h4{
+    font-size: 10rem;
+}
+
+
+.men img{
+    
+}
+
+.women{
+    margin: 50px;
+}
+
+.women img{
+    
+}
+
+
