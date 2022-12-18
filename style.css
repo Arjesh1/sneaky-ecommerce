@@ -526,7 +526,7 @@ hr{
     display: flex;
     flex-direction: column;
     margin-left: 4rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
 
   }
 
@@ -544,7 +544,15 @@ hr{
     font-weight: bolder;
     font-size: medium;
     width: 30%;
+    opacity: 100%;
 }
+
+.container5 h1{
+    font-size:4rem;
+    color:white;
+    margin-bottom:10px;
+    text-align:center;
+  }
 
 
 /* registration */
@@ -557,7 +565,7 @@ hr{
     flex-direction: column;
     align-items: center;
 /*     justify-content: center; */
-    height: 180vh;
+    height: 115vh;
   }
   
  
@@ -590,6 +598,7 @@ hr{
     font-weight: bolder;
     font-size: medium;
     width: 20%;
+    opacity: 100%;
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
@@ -617,6 +626,82 @@ hr{
   margin-bottom:10px;
   text-align:center;
 }
+
+/* cart section */
+
+.container7{
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: -20rem;
+    background: white;
+
+}
+
+.container7 h2{
+    font-size: larger;
+}
+.left-cart{
+    width: 40%;
+    height: 60vh;
+    border-radius: 5px;
+    background:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.left-cart p{
+    margin-top: 1rem;
+}
+
+.left-cart hr{
+    border-top: 2px dotted black;
+}
+
+.account{
+    margin-top: 2rem;
+    
+}
+
+.submit1{
+    background-color: #04925cb4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: medium;
+    width: 30%;
+    margin-top: 1rem;
+  }
+
+
+  .right-cart{
+    width: 40%;
+    height: 60vh;
+    border-radius: 5px;
+    background:white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  .submit1:hover {
+    background-color: #04925cb4;
+    font-weight: bold;
+  }
 
 
 /* suscribe section */
