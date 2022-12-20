@@ -643,6 +643,7 @@ hr{
 
 .container7 h2{
     font-size: larger;
+  padding-top:1rem;
 }
 .left-cart{
     width: 40%;
@@ -652,8 +653,8 @@ hr{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-left: -1rem;
-    margin-top: 1.5rem;
+    margin-top: 1.3rem;
+  padding:1rem;
 }
 
 
@@ -663,7 +664,7 @@ hr{
 }
 
 .left-cart hr{
-    border-top: 2px dotted black;
+    border-top: 2px solid black;
 }
 
 .account{
