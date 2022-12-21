@@ -831,13 +831,11 @@ footer{
         width: 90%;
     }
 
-    
-    
-    
+    .container6{
+        margin: 1rem;
+    }
 
-
     
-
     /* footer */
     .footer{
         margin-top: 40rem;
@@ -852,24 +850,36 @@ footer{
 
     }
 
+    .footer1{
+        margin-top: auto;
+    }
+
 }
     
 
 
 /* mobile screen */
 /* max width */
-@media (max-width : 480px ){
-    
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
     .wrapper{
-        margin-right: rem;
+        width: 100%;
     }
     
     .header{
         display: none;
     }
 
-    .nav{
-        margin-left: -45px;
+    .logo{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .top-menu{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
         
     }
 
@@ -882,28 +892,28 @@ footer{
     }
 
     .video > div h1{
-        margin-left: -4.5em;
         font-size: 9vh;
+        margin-left: -25rem;
     }
 
     .content h1{
         margin-top: -1.5em;
         font-size: 8vh;
-        margin-left:0.5em;
+       
     }
 
     .title{
         width: 100%;
-        font-size: 2rem;
+        font-size: 1rem;
+        
     }
 
-    
 
     .product{
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+       
 
     }
 
@@ -913,10 +923,21 @@ footer{
         flex-direction: column;
         justify-content: center;
 
+
+
     }
 
+      
+    .card{
+        width: 80%;
+
+     }
     .shop-section{
         display:none;
+    }
+
+    .create{
+        width: 100%;
     }
 
     .footer{
@@ -950,6 +971,21 @@ footer{
         .submit {
 
             width: 100%;
+        }
+
+        .registrationbg{
+            height: 125%;
+        }
+
+        .container6{
+            width: 90%;
+            margin-left: 0;
+            margin-top: 1rem;
+            
+        }
+
+        .footer1{
+            margin-top: 1rem;
         }
 
     
